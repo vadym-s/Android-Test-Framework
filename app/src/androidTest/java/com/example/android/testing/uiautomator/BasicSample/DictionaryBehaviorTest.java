@@ -17,6 +17,7 @@
 package com.example.android.testing.uiautomator.BasicSample;
 
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -25,6 +26,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.support.test.InstrumentationRegistry;
+import android.support.test.espresso.assertion.ViewAssertions;
 import android.support.test.filters.SdkSuppress;
 import android.support.test.runner.AndroidJUnit4;
 import android.support.test.uiautomator.By;
@@ -37,6 +39,11 @@ import android.support.test.uiautomator.UiSelector;
 import android.support.test.uiautomator.Until;
 import android.util.Log;
 
+import com.example.android.searchabledict.SearchableDictionary;
+
+import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
@@ -50,14 +57,8 @@ import static org.junit.Assert.assertThat;
 @SdkSuppress(minSdkVersion = 18)
 public class DictionaryBehaviorTest {
 
-    private static final String BASIC_SAMPLE_PACKAGE
-            //= "com.example.android.testing.uiautomator.BasicSample";
-            = "com.example.android.searchabledict";
-
+    private static final String BASIC_SAMPLE_PACKAGE = "com.example.android.searchabledict";
     private static final int LAUNCH_TIMEOUT = 5000;
-
-    private static final String STRING_TO_BE_TYPED = "UiAutomator";
-
     private UiDevice mDevice;
 
     @Before
@@ -84,6 +85,13 @@ public class DictionaryBehaviorTest {
         mDevice.wait(Until.hasObject(By.pkg(BASIC_SAMPLE_PACKAGE).depth(0)), LAUNCH_TIMEOUT);
     }
 
+    @Rule
+    public final ActivityRule<SearchableDictionary> main = new ActivityRule<>(SearchableDictionary.class);
+
+    @Test
+    public void shouldBeAbleToLaunchMainScreen() {
+        onView(withText("Searchable Dictionary")).check(ViewAssertions.matches(isDisplayed()));
+    }
 
     @Test
     public void checkPreconditions() {

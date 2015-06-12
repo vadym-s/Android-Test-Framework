@@ -2,6 +2,76 @@
 <items version="2" >
 
     <item
+        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/javawriter-2.1.1-59a2aff7d506a664934f2ae6a60f1524976d14a6.jar" />
+    </item>
+    <item
+        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/jsr305-2.0.1-f71024e15b2f7d018629a4c5f528bebcd738faf0.jar" />
+    </item>
+    <item
+        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/javax.annotation-api-1.2-e1daef233beb304b976187abcf177a1798d8562e.jar" />
+    </item>
+    <item
+        jar="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="3e2095347aa9c33370eb72fea3969c0a7254e168">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/classes-b57d95dca1483d1721ac365eed2fddea1571bd20.jar" />
+    </item>
+    <item
+        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="860340562250678d1a344907ac75754e259cdb14">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.1-4e7e368588229af44545231cedaee8e9a7cb2c60.jar" />
+    </item>
+    <item
+        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/junit/junit-dep/4.10/64417b3bafdecd366afa514bd5beeae6c1f85ece/junit-dep-4.10.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="64417b3bafdecd366afa514bd5beeae6c1f85ece">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/junit-dep-4.10-4cea1fd2cf39764b6325b7b39f61ccc8bcb4e0a9.jar" />
+    </item>
+    <item
+        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.1/b988c01468e3398d46678a2eb48aeb5bde271e9f/hamcrest-library-1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="b988c01468e3398d46678a2eb48aeb5bde271e9f">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.1-5ce79c3a3b765cabd9c02f412871b734f5ff06ed.jar" />
+    </item>
+    <item
+        jar="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/exploded-aar/com.android.support.test/testing-support-lib/0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="2700b782e8c78b36636a15b0ed86126a96295de7">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/classes-92b0dca5e0822804653142c7486ddd9c4c228d18.jar" />
+    </item>
+    <item
+        jar="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="7cc4b00df8357dabd613998c9229ace9bba26ee2">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/classes-b427838b7111ac82a2815e796296ae9cd7cde9ad.jar" />
+    </item>
+    <item
+        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.1/8d47177aa4da0f259fc823a39736bad2f09993d5/hamcrest-integration-1.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8d47177aa4da0f259fc823a39736bad2f09993d5">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.1-594ff21a19569e9d0bebe9126009383b8fa245a4.jar" />
+    </item>
+    <item
         jar="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/exploded-aar/com.android.support.test.uiautomator/uiautomator-v18/2.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
@@ -9,60 +79,11 @@
         <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/classes-fdd8a45a49e98694f992773f9c8814b36d911b8d.jar" />
     </item>
     <item
-        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
         jumboMode="false"
         revision="23.0.0 rc2"
-        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
-        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/junit-4.12-a282b6beb5215fc07fd8c1d30b3f358dee2cece7.jar" />
-    </item>
-    <item
-        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
-        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-integration-1.3-e9cbc17ee35fe7b28bd6a334f622ea3f9be4c6ac.jar" />
-    </item>
-    <item
-        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
-        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-core-1.3-d8b273dc86ab6acfdd27d248c41cdfd877fd70b1.jar" />
-    </item>
-    <item
-        jar="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/exploded-aar/com.android.support.test/runner/0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="eb6b41b1aa9906a727fb4841aa000f23f63d9330">
-        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/classes-d7ba87d4846478df567acb5792b3802135efdaa9.jar" />
-    </item>
-    <item
-        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/debug/guava-18.0-889c76b1194964c3bcba28ef9ef1898915a1973f.jar" />
-    </item>
-    <item
-        jar="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="93a09b0222200f83779a784ac9b25c2554653495">
-        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/classes-7dfe01589edf01d2d4fc80ca70a6611d53acedc5.jar" />
-    </item>
-    <item
-        jar="/home/vadym/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
-        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/hamcrest-library-1.3-bed3ee04d8b2ef72cba7485847ed3ed299d1cea2.jar" />
-    </item>
-    <item
-        jar="/home/vadym/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.0 rc2"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/support-annotations-22.2.0-911f4607c1d40539d04edd7dacbdd597fa38105f.jar" />
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/vadym/AndroidStudioProjects/DictionarySearch/app/build/intermediates/pre-dexed/androidTest/debug/javax.inject-1-60c45cd3027569037bccda473c539866fce1122a.jar" />
     </item>
 
 </items>
